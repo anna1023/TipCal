@@ -19,7 +19,9 @@
             <preferred-size width="150" height="50"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <lineWrap value="true"/>
+        </properties>
       </component>
       <component id="547b2" class="javax.swing.JTextArea" binding="textArea3" custom-create="true" default-binding="true">
         <constraints>
@@ -27,7 +29,9 @@
             <preferred-size width="150" height="50"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <lineWrap value="true"/>
+        </properties>
       </component>
       <component id="1eda" class="javax.swing.JTextArea" binding="textArea1" custom-create="true" default-binding="true">
         <constraints>
@@ -35,7 +39,9 @@
             <preferred-size width="150" height="50"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <lineWrap value="true"/>
+        </properties>
       </component>
       <component id="dd094" class="javax.swing.JTextArea" binding="textArea4" custom-create="true" default-binding="true">
         <constraints>
@@ -43,7 +49,9 @@
             <preferred-size width="150" height="50"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <lineWrap value="true"/>
+        </properties>
       </component>
       <vspacer id="48069">
         <constraints>
@@ -61,7 +69,9 @@
             <preferred-size width="150" height="50"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <lineWrap value="true"/>
+        </properties>
       </component>
       <component id="2cdef" class="javax.swing.JLabel" binding="Bill">
         <constraints>
