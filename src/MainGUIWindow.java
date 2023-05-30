@@ -41,7 +41,7 @@ public class MainGUIWindow extends JFrame implements ActionListener{
         setVisible(true);
     }
 
-    public void actionPerformed(ActionEvent e){
+    public void actionPerformed(ActionEvent e){ //double check?
         Object source = e.getSource();
         if(source instanceof JButton){
             JButton button = (JButton) source;
