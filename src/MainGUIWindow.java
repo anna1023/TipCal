@@ -30,7 +30,7 @@ public class MainGUIWindow extends JFrame implements ActionListener{
         // TODO: place custom component creation code here
         setContentPane(mainPanel);
         setTitle("Tip Calculate");
-        setSize(300,400);
+        setSize(700,400);
         setLocation(450,100);
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         as.addActionListener(this);
@@ -38,7 +38,7 @@ public class MainGUIWindow extends JFrame implements ActionListener{
         de.addActionListener(this);
         calculateButton.addActionListener(this);
         sned.addActionListener(this);
-        setVisible(true);
+        this.setVisible(true);
     }
 
     public void actionPerformed(ActionEvent e){ //double check?
@@ -60,17 +60,17 @@ public class MainGUIWindow extends JFrame implements ActionListener{
             if(button == cend){
                 double num = Double.parseDouble(textArea5.getText());
                 num++;
-                textArea4.setText("" + num);
+                textArea5.setText("" + num);
             }
             if(button == sned){
                 double tip = Double.parseDouble(textArea5.getText());
                 tip--;
-                textArea4.setText("" + tip);
+                textArea5.setText("" + tip);
             }
             if(button == calculateButton){
                 TipCalculator calc = new TipCalculator(Double.parseDouble(textArea2.getText()),Integer.parseInt(textArea4.getText()),Integer.parseInt(textArea5.getText()));
-                textArea3.setText(""+calc.getTip());
-                textArea1.setText(""+calc.getBill());
+                textArea3.setText(""+calc.calculateTip());
+                textArea1.setText(""+calc.totalBill());
             }
 
         }
